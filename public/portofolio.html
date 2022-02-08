@@ -16,32 +16,72 @@
   </head>
   <body>
     <!-- Navigation Bar -->
-    <nav class="bg-gray-400">
-      <div class="max-w-7xl mx-auto border border-red-500 mt-10">
-        <div class="flex justify-center">
+    <nav class="pt-8">
+        <div class="flex justify-center items-center mx-auto">
           <!-- Antonio.CV -->
-          <div class="font-body text-4xl font-semibold border border-red-900 pr-12 -ml-36">Antonio.CV</div>
+          <div class="text-center font-body text-transparent text-4xl font-extrabold mr-8 bg-clip-text bg-gradient-to-br from-[#1488CC] to-darkblue">Antonio.CV</div>
 
           <!-- Primary Nav -->
-          <div class="grid grid-cols-5 content-center">
-            <button class="text-center border border-sky-400 bg-darkblue text-white font-body py-2 px-3">About Me</button>
-            <button class="text-center border border-sky-400 bg-darkblue text-white font-body py-2 px-3">Education</button>
-            <button class="text-center border border-sky-400 bg-darkblue text-white font-body py-2 px-3">Projects</button>
-            <button class="text-center border border-sky-400 bg-darkblue text-white font-body py-2 px-3">Awards</button>
-            <button class="text-center border border-sky-400 bg-darkblue text-white font-body py-2 px-3">Contact Me</button>
+          <div class="flex content-center">
+            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">About Me</button>
+            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Education</button>
+            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Projects</button>
+            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Awards</button>
+            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Contact Me</button>
           </div>
         </div>
-      </div>
     </nav>
 
-    <!-- Profile -->
-    <div class="grid grid-cols-2">
-        <img class="w-80 ml-9" src="/public/img/Profil.jpg" alt="Foto Profil" />
-        <div class="bg-orange-400">Kenapa lambat refresh</div>
+    
+    <div class="flex content-center justify-center">
+      <div class="">
+
+        <!-- Foto Profil -->
+        <img class="w-54 h-60" src="/public/img/Profil.jpeg" alt="Foto Profil" />
+
+        <!-- Info General -->
+        <div class="bg-darkblue text-slate-300 text-center font-bold text-lg w-54 mx-auto pt-3">General Information</div>
+        <div class="px-2 pt-3 pb-2 text-xs font-semibold bg-darkblue text-slate-300 text-center w-54 mx-auto flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 mr-2 text-[#7975B1]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+          </svg><span class="text-[#7975B1] mr-1"> Nama : </span>Jeremy Antonio</div>
+          
+        <div class="px-2 py-2 text-xs font-semibold bg-darkblue text-slate-300 text-center w-54 mx-auto flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 mr-2 text-[#7975B1]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg><span class="text-[#7975B1] mr-1"> Location : </span>Indonesia</div>
+
+        <div class="px-2 py-2 text-xs font-semibold bg-darkblue text-slate-300 text-center w-54 mx-auto flex">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 mr-2 text-[#7975B1]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg><span class="text-[#7975B1] mr-1"> Date of Birth : </span>10 August 2001</div>
+
+        <!-- Social Media  -->
+          <div class="flex px-4 pb-2 font-normal text-slate-300 justify-between bg-darkblue w-full">
+            <div><a href=""><img class="w-5 h-5 my-2" src="/public/img/LinkedIn.svg" alt=""></a></div>
+            <div><a href=""><img class="w-5 h-5 my-2" src="/public/img/Telegram.svg" alt=""></a></div>
+            <div><a href=""><img class="w-5 h-5 my-2" src="/public/img/GitHub.svg" alt=""></a></div>
+            <div><a href=""><img class="w-5 h-5 my-2" src="/public/img/Discord.svg" alt=""></a></div>
+            <div><a href="https://www.youtube.com/channel/UCZh3dTi8bS0inCGMqRiJwsQ"><img class="w-5 h-5 my-2" src="/public/img/Youtube.svg" alt=""></a></div>
+          </div>
       </div>
-      
-      <div class="bg-lime-400">Grid 3</div>
+
+      <!-- About Me -->
+      <div class=" w-[1000px] bg-pinkInfo">
+        <div class="text-[#BEBEBE] text-2xl pt-[35px] pl-[55px]">Engineering Student</div>
+        <div class="text-[#130C58] text-5xl font-bold pl-[50px]">Jeremy Antonio</div>
+        <div class="text-[#C0C0C0] pt-10 px-[50px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo obcaecati earum animi velit ut id unde dicta, commodi provident perferendis corporis dolorem qui laboriosam odio maiores sit ex, voluptatibus sequi delectus. Nulla aliquid et iure recusandae nemo placeat provident qui minus molestiae error doloribus accusantium facere debitis, ipsa reprehenderit rem optio necessitatibus ipsum reiciendis voluptates? Nesciunt delectus et incidunt vel libero mollitia quidem quae dolores? Quibusdam consequuntur est quia?</div>
+      </div>
     </div>
+
+    <!-- Education -->
+    <div>
+        
+    </div>
+    
+
+
     <!-- Mobile Menu -->
 
     <!-- Content Here -->
