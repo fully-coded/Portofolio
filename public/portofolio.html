@@ -8,13 +8,14 @@
 
     <!-- Link CSS, Fonts, Icons -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/vanila.css" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b70bdea85f.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  
     <!-- Navigation Bar -->
     <nav class="pt-8">
         <div class="flex justify-center items-center mx-auto">
@@ -23,11 +24,11 @@
 
           <!-- Primary Nav -->
           <div class="flex content-center">
-            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">About Me</button>
-            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Education</button>
-            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Projects</button>
-            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Awards</button>
-            <button class="block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Contact Me</button>
+            <button class="cursor-pointer block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">About Me</button>
+            <button class="cursor-pointer block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Education</button>
+            <button class="cursor-pointer block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Projects</button>
+            <button class="cursor-pointer block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Awards</button>
+            <button class="cursor-pointer block text-center border bg-darkblue text-slate-100 font-thin font-body py-2 px-3 hover:bg-hoverbtn">Contact Me</button>
           </div>
         </div>
     </nav>
@@ -75,68 +76,156 @@
       </div>
     </div>
 
-    <!-- Education -->
-
-    <!-- SVG Wave Atas -->
-    <svg class="w-full mt-20" viewBox="0 0 1440 73" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 37.5359L48 27.0479C96 16.5599 192 -4.4162 288 0.827812C384 6.07183 480 37.5359 576 37.5359C672 37.5359 768 6.07183 864 2.57582C960 -0.920193 1056 23.5519 1152 32.2919C1248 41.0319 1344 34.0399 1392 30.5439L1440 27.0479V69H1392C1344 69 1248 69 1152 69C1056 69 960 69 864 69C768 69 672 69 576 69C480 69 384 69 288 69C192 69 96 69 48 69H0V37.5359Z" fill="#A3A3D8"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 32.4451L39.6 33.5717C80.4 34.6982 159.6 36.9512 240 40.3308C320.4 43.7104 399.6 48.2165 480 44.8369C560.4 41.4573 639.6 30.1921 720 24.5595C800.4 18.9268 879.6 18.9268 960 22.3064C1040.4 25.686 1119.6 32.4451 1200 35.8247C1280.4 39.2043 1359.6 39.2043 1400.4 39.2043H1440V73H1400.4C1359.6 73 1280.4 73 1200 73C1119.6 73 1040.4 73 960 73C879.6 73 800.4 73 720 73C639.6 73 560.4 73 480 73C399.6 73 320.4 73 240 73C159.6 73 80.4 73 39.6 73H0V32.4451Z" fill="#C6C6EC"/>
-      </svg>
-        
-    <div class="h-[525px] bg-[#C6C6EC] w-full">
-        
-        <div class=" flex justify-center font-bold text-[#130C58] text-4xl">
-          Education
-        </div>
-
-        <!-- Card Education-->
-        <div class=" flex mx-auto mt-10 justify-center w-full gap-10">
-
-          <div class="bg-slate-100 shadow-lg rounded-lg w-[380px]">
-            <!-- Gambar & Info Univ -->
-            <div class=" flex h-60 bg-gradient-to-r from-[#F395BA] to-[#FED182] rounded-t-lg justify-center content-center items-center"><img class="h-[226px] w-[96%] rounded-t-lg" src="img/stie.jpg" alt="UnivSTIE"></div>
-            <header class="rounded-t-lg py-3 text-center text-[#130C58] text-lg font-semibold">Sekolah Tinggi Ilmu Ekonomi</header>
-            <div class="h-20 px-4 text-slate-600 text-justify mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus dolorem ab at itaque a iure quo, perspiciatis neque unde.</div>
-            <footer class="py-[6px] px-4 bg-gray-200 rounded-b-lg justify-between flex">
-              <div class="text-xs items-center text-slate-600">March 2019 - Present</div> 
-              <div class="text-xs items-center text-slate-600">Sarjana Ekonomi (S.E)</div> 
-            </footer>
-          </div>
-
-          <div class="bg-slate-100 shadow-lg rounded-lg w-[380px]">
-            <!-- Gambar & Info Univ -->
-            <div class=" flex h-60 bg-gradient-to-r from-[#F395BA] to-[#FED182] rounded-t-lg justify-center content-center items-center"><img class="h-[226px] w-[96%] rounded-t-lg" src="img/ULM-2.jpg" alt="UnivSTIE"></div>
-            <header class="rounded-t-lg py-3 text-center text-[#130C58] text-lg font-semibold">Universitas Lambung Mangkurat</header>
-            <div class="h-20 px-4 text-slate-600 text-justify mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus dolorem ab at itaque a iure quo, perspiciatis neque unde.</div>
-            <footer class="py-[6px] px-4 bg-gray-200 rounded-b-lg justify-between flex">
-              <div class="text-xs items-center text-slate-600">March 2019 - Present</div> 
-              <div class="text-xs items-center text-slate-600">Sarjana Kom (S.Kom)</div> 
-            </footer>
-          </div>
-
-          <div class="bg-slate-100 shadow-lg rounded-lg w-[380px]">
-            <!-- Gambar & Info Univ -->
-            <div class=" flex h-60 bg-gradient-to-r from-[#F395BA] to-[#FED182] rounded-t-lg justify-center content-center items-center"><img class="h-[226px] w-[96%] rounded-t-lg" src="img/stie.jpg" alt="UnivSTIE"></div>
-            <header class="rounded-t-lg py-3 text-center text-[#130C58] text-lg font-semibold">Sekolah Tinggi Ilmu Ekonomi</header>
-            <div class="h-20 px-4 text-slate-600 text-justify mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus dolorem ab at itaque a iure quo, perspiciatis neque unde.</div>
-            <footer class="py-[6px] px-4 bg-gray-200 rounded-b-lg justify-between flex">
-              <div class="text-xs items-center text-slate-600">March 2019 - Present</div> 
-              <div class="text-xs items-center text-slate-600">Sarjana Ekonomi (S.E)</div> 
-            </footer>
-          </div>
-
-
-
-          
-        </div>
-    </div>
-    <svg class="w-full mb-20" viewBox="0 0 1440 69" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M1440 31.4641L1392 41.9521C1344 52.4401 1248 73.4162 1152 68.1722C1056 62.9282 960 31.4641 864 31.4641C768 31.4641 672 62.9282 576 66.4242C480 69.9202 384 45.4481 288 36.7081C192 27.9681 95.9999 34.9601 47.9999 38.4561L-5.72205e-05 41.9521V-1.85889e-06H47.9999C95.9999 -1.85889e-06 192 -1.85889e-06 288 -1.85889e-06C384 -1.85889e-06 480 -1.85889e-06 576 -1.85889e-06C672 -1.85889e-06 768 -1.85889e-06 864 -1.85889e-06C960 -1.85889e-06 1056 -1.85889e-06 1152 -1.85889e-06C1248 -1.85889e-06 1344 -1.85889e-06 1392 -1.85889e-06H1440V31.4641Z" fill="#A3A3D8"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M1440 40.5549L1400.4 39.4283C1359.6 38.3018 1280.4 36.0488 1200 32.6692C1119.6 29.2896 1040.4 24.7835 960 28.1631C879.6 31.5427 800.4 42.8079 720 48.4405C639.6 54.0732 560.4 54.0732 480 50.6936C399.6 47.314 320.4 40.5549 240 37.1753C159.6 33.7957 80.3999 33.7957 39.6 33.7957H0V0H39.6C80.3999 0 159.6 0 240 0C320.4 0 399.6 0 480 0C560.4 0 639.6 0 720 0C800.4 0 879.6 0 960 0C1040.4 0 1119.6 0 1200 0C1280.4 0 1359.6 0 1400.4 0H1440V40.5549Z" fill="#C6C6EC"/>
-      </svg>
+    
     
     <!-- Mobile Menu -->
-
     <!-- Content Here -->
+    <!-- Top Button -->
+    <div class="container mx-auto">
+      <div class="rounded-full flex fixed bottom-5 right-5"> <a class="m-auto" href="#">
+        <svg width="40px" height="40px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21.0005 16L16.0005 11M16.0005 11L11.0005 16M16.0005 11V21M29.0005 16C29.0005 23.1797 23.1802 29 16.0005 29C8.82079 29 3.00049 23.1797 3.00049 16C3.00049 8.8203 8.82079 3 16.0005 3C23.1802 3 29.0005 8.8203 29.0005 16Z" stroke="#3A52EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a> 
+    </div>
+    </div>
+
+
+      <!-- =============== -->
+        <!-- Wave Animasi -->
+      <section id="hero" class="d-flex flex-column justify-content-end align-items-center mt-12 backg-edu">
+        <!-- Wave Top -->
+        <svg class="hero-waves animasi-wave-atas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+          <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(99, 99, 215, 1)">
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(163, 163, 216, .2)">
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+          </g>
+        </svg>
+      
+        <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel"> 
+      </div>
+          
+          
+          <!-- Slide  -->
+          <div class="h-[560px] mt-4">
+            <div class=" flex justify-center font-bold text-[#130C58]  text-4xl">
+              Education
+            </div>
+    
+            <!-- Card Education-->
+            <div class=" flex mx-auto mt-6 justify-center w-full px-5 gap-5">
+    
+              <div class="bg-slate-100 shadow-lg rounded-lg w-[380px]">
+                <!-- Gambar & Info Univ -->
+                <div class=" flex h-60 bg-gradient-to-r from-[#F395BA] to-[#FED182] rounded-t-lg justify-center content-center items-center"><img class="h-[226px] w-[96%] rounded-t-lg" src="img/stie.jpg" alt="UnivSTIE"></div>
+                <header class="rounded-t-lg py-3 text-center text-[#130C58] text-lg font-semibold">Sekolah Tinggi Ilmu Ekonomi</header>
+                <div class="h-20 px-4 text-slate-600 text-justify mb-6 text-clip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus dolorem ab at itaque a iure quo, perspiciatis neque unde.</div>
+                <footer class="py-[6px] px-4 bg-gray-200 rounded-b-lg justify-between flex">
+                  <div class="text-xs items-center text-slate-600">March 2019 - Present</div> 
+                  <div class="text-xs items-center text-slate-600">Sarjana Ekonomi (S.E)</div> 
+                </footer>
+              </div>
+    
+              <div class="bg-slate-100 shadow-lg rounded-lg w-[380px]">
+                <!-- Gambar & Info Univ -->
+                <div class=" flex h-60 bg-gradient-to-r from-[#F395BA] to-[#FED182] rounded-t-lg justify-center content-center items-center"><img class="h-[226px] w-[96%] rounded-t-lg" src="img/ULM-2.jpg" alt="UnivSTIE"></div>
+                <header class="rounded-t-lg py-3 text-center text-[#130C58] text-lg font-semibold sm:px-1">Universitas Lambung Mangkurat</header>
+                <div class="h-20 px-4 text-slate-600 text-justify mb-6 text-clip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus dolorem ab at itaque a iure quo, perspiciatis neque unde.</div>
+                <footer class="py-[6px] px-4 bg-gray-200 rounded-b-lg justify-between flex">
+                  <div class="text-xs items-center text-slate-600">March 2019 - Present</div> 
+                  <div class="text-xs items-center text-slate-600">Sarjana Komputer (S.Kom)</div> 
+                </footer>
+              </div>
+    
+              <div class="bg-slate-100 shadow-lg rounded-lg w-[380px]">
+                <!-- Gambar & Info Univ -->
+                <div class=" flex h-60 bg-gradient-to-r from-[#F395BA] to-[#FED182] rounded-t-lg justify-center content-center items-center"><img class="h-[226px] w-[96%] rounded-t-lg" src="img/stie.jpg" alt="UnivSTIE"></div>
+                <header class="rounded-t-lg py-3 text-center text-[#130C58] text-lg font-semibold">Sekolah Tinggi Ilmu Ekonomi</header>
+                <div class="h-20 px-4 text-slate-600 text-justify mb-6 text-clip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est natus dolorem ab at itaque a iure quo, perspiciatis neque unde.</div>
+                <footer class="py-[6px] px-4 bg-gray-200 rounded-b-lg justify-between flex">
+                  <div class="text-xs items-center text-slate-600">March 2019 - Present</div> 
+                  <div class="text-xs items-center text-slate-600">Sarjana Ekonomi (S.E)</div> 
+                </footer>
+              </div>
+            </div>
+    
+    
+              
+            </div>
+        </div>
+        
+        <!-- Wave Bottom -->
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+          <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+          </g>
+        </svg>
+      </section><!-- End Hero -->
+      
+      <!-- Wave Animasi -->
+      <section id="hero" class="d-flex flex-column justify-content-end align-items-center mt-10 backg-project">
+        <!-- Wave Top -->
+        <svg class="hero-waves animasi-wave-atas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+          <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+          </g>
+        </svg>
+      
+        <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel"> 
+      </div>
+          
+          
+          <!-- Slide  -->
+          <div class="carousel-item active">
+            <div class="carousel-container">
+              <h2 class="animate__animated animate__fadeInDown">Project</h2>
+              <p class="animate__animated fanimate__adeInUp">Testing</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Wave Bottom -->
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+          <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+          </defs>
+          <g class="wave1">
+            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+          </g>
+          <g class="wave2">
+            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+          </g>
+          <g class="wave3">
+            <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+          </g>
+        </svg>
+      </section><!-- End Hero -->
+    </div>
   </body>
 </html>
